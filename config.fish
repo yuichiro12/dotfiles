@@ -1,6 +1,5 @@
 # set theme
 set fish_theme bobthefish
-set -x VISUAL 'code --wait'
 
 set -g fish_user_paths "/opt/homebrew/bin" "/usr/local/bin" "/usr/local/sbin" $fish_user_paths
 
