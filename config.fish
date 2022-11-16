@@ -1,5 +1,7 @@
 # set theme
 set fish_theme bobthefish
+set -x VISUAL 'code --wait'
+set -x EDITOR 'code --wait'
 
 set -g fish_user_paths "/usr/local/bin" "/usr/local/sbin" $fish_user_paths
 
