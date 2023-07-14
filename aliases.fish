@@ -1,3 +1,4 @@
+alias hub='git'
 alias gta='git add -A'
 alias gtm='git commit -m'
 alias gtp='git push -u'
@@ -6,7 +7,6 @@ alias la='ls -la'
 alias gb='git branch'
 alias gco='git checkout'
 alias gts='git status'
-alias z='cd $HOME/workspace/(ghq list | fzf)'
 
 function gtamp
 	git add -A
