@@ -1,5 +1,5 @@
 #!/usr/bin/fish
-apt-get install fzf
+apt-get update && apt-get install fzf hub
 # https://github.com/jorgebucaran/fisher/issues/742
 fisher install oh-my-fish/theme-bobthefish jethrokuan/fzf </dev/null
 cp config.fish $HOME/.config/fish/config.fish
