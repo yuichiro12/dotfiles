@@ -11,7 +11,7 @@ alias gts='git status'
 function gtamp
 	git add -A
 	git commit -m $argv
-	git push
+	git push -u
 end
 
 function f
