@@ -1,4 +1,3 @@
-alias git='hub'
 alias gta='git add -A'
 alias gtm='git commit -m'
 alias gtp='git push -u'
