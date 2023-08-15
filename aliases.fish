@@ -9,15 +9,6 @@ alias grv='gh repo view --web'
 alias gpv='gh pr view --web'
 alias gpc='gh pr create'
 
-function z
-	set dir (ghq list | fzf)
-	if test -n "$dir"
-		cd $HOME/workspace/$dir
-	else
-		echo "No directory selected"
-	end
-end
-
 function gtamp
 	git add -A
 	git commit -m $argv
