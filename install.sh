@@ -6,3 +6,4 @@ cp config.fish $HOME/.config/fish/config.fish
 cp aliases.fish $HOME/.config/fish/aliases.fish
 source $HOME/.config/fish/config.fish
 git config --global --bool push.autoSetupRemote true
+git config --global push.default current
